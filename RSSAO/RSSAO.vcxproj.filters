@@ -15,16 +15,58 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="pch.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="pch.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="RSSAO.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="ssao.fs">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="ssao.vs">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="ssao_blur.fs">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="ssao_blur.vs">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="ssao_downsample.fs">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="ssao_downsample.vs">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="ssao_geometry.fs">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="ssao_geometry.vs">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="ssao_lighting.fs">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="ssao_lighting.vs">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="ssao_upsample.fs">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="ssao_upsample.vs">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="learnopengl\root_directory.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
